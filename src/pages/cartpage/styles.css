@@ -1,0 +1,22 @@
+.cart-container {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    /* align-items: center; */
+    margin: 5rem;
+}
+
+.cart-card {
+    display: flex;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+}
+
+img {
+    width: 10rem;
+}
